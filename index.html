@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Aryan's Website</title>
+      <link rel="stylesheet" href="/css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Charm:700" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+</head>
+<body>
+      <nav>
+
+            <h1 class="logo">Aryan Jain.</h1>
+            <ul>
+                  <li><a class="underline" href="#" target="_blank">Home</a></li>
+                  <li><a class="underline" href="port.html" target="_blank">Portfolio</a></li>
+                  <li><a class="underline" href="#" target="_blank">About Me</a></li>
+                  <li><a class="underline" href="#" target="_blank">Contact</a></li>
+            </ul>
+
+            <!-- <h1 class="rev-block">
+                  <span>Aryan Jain.</span>
+            </h1> -->
+      </nav>
+
+      <section class="front-page">
+            <div class="main-page-container">
+                <div class="intro-words">
+                    <h1>Hi! I'm Aryan.</h1>
+                    <h1>I am a <span class="element"></span></h1>
+                    <h1>creator.</h1>
+                </div>
+                <img class="face" src="/images/face.jpeg" alt="face">
+            </div>
+        </section>
+
+
+
+
+
+
+
+            <!-- <div class="top-bar">
+                  <h1 class="rev-block">
+                        <span>Aryan Jain.</span>
+                  </h1>
+
+                  <nav>
+                        <input type="checkbox" id="nav" class="hidden">
+                        <label for="nav" class="nav-btn">
+                              <i></i>
+                              <i></i>
+                              <i></i>
+                        </label>
+                        <div class="nav-wrapper">
+                              <ul>
+                                    <li><a href="#" target="_blank">Home</a></li>
+                                    <li><a href="port.html" target="_blank">Portfolio</a></li>
+                                    <li><a href="#" target="_blank">About Me</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+                  <ul>
+                        <li>
+                              <div class="search">
+                                    <i class="fa fa-search"></i>
+                              </div>
+                        </li>
+
+                  </ul>
+
+            </div> -->
+
+
+      <div class="media">
+            <ul>
+                  <li><a href="https://www.facebook.com/"  target="_blank" style="color: white; text-decoration: none;" class="fa fa-github"></a></li>
+                  <li><a href="https://www.instagram.com/"  target="_blank" style="color: white; text-decoration: none;" class="fa fa-instagram"></a></li>
+                  <li><a href="https://www.facebook.com/"  target="_blank" style="color: white; text-decoration: none;" class="fa fa-dribbble"></a></li>
+                  <li><a href="https://twitter.com/?lang=en"  target="_blank" style="color: white; text-decoration: none;" class="fa fa-twitter"></a></li>
+            </ul>
+      </div>
+
+      <script type="text/javascript">
+            TweenMax.from(".h1", 0, {
+                  delay: 0,
+                  opacity: 0,
+                  y: 20,
+                  ease: Expo.easeInOut
+            });      
+
+            TweenMax.from(".search", .7, {
+                  delay: .3,
+                  opacity: 0,
+                  y: 20,
+                  ease: Expo.easeInOut
+            });
+
+            TweenMax.from(".nav-wrapper", .7, {
+                  delay: .3,
+                  opacity: 0,
+                  y: 20,
+                  ease: Expo.easeInOut
+            });
+
+            TweenMax.staggerFrom(".media ul li", 1, {
+                  delay: 1,
+                  opacity: 0,
+                  y: 40,
+                  ease: Expo.easeInOut
+            }, 0.2);
+      </script>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+      <script>
+      var typed = new Typed('.element', {
+            strings: [
+                  "<style>.element{color: #ea2340}</style>passionate", 
+                  "<style>.element{color: #ea2340}</style>practical", 
+                  "<style>.element{color: #ea2340}</style>mindful",
+                  "<style>.element{color: #ea2340}</style>resourceful"
+            ],
+            typeSpeed: 55,
+            backSpeed: 40,
+            startDelay: 0,
+            loop: true,
+      });
+      </script>
+
+
+</body>
+</html>
