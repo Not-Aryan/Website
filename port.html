@@ -5,68 +5,89 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Aryan's Portfolio</title>
-      <link rel="stylesheet" href="port.css">
+      <link rel="stylesheet" href="/css/port.css">
       <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Charm:700" rel="stylesheet">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/2101f4e3fd.js" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+      <link rel="shortcut icon" type="image/png" href="/images/Aryan-Jain-Icon.png">
+
 
 
 </head>
 <body>
-      <div class="top-bar">
-            <h1 class="rev-block">
+      <nav>
+            <h1 class="logo">Aryan Jain.</h1>
+            <ul class="stuff">
+                  <li><a class="underline" href="index.html" target="_blank">Home</a></li>
+                  <li><a class="underline" href="port.html" target="_blank">Portfolio</a></li>
+                  <li><a class="underline" href="#" target="_blank">About Me</a></li>
+                  <li><a class="underline" href="mailto: aryanjn09@gmail.com">Contact</a></li>
+            </ul>
+
+            <!-- <h1 class="rev-block">
                   <span>Aryan Jain.</span>
-            </h1>
+            </h1> -->
+      </nav>
 
-            <nav>
-                  <input type="checkbox" id="nav" class="hidden">
-                  <label for="nav" class="nav-btn">
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                  </label>
-                  <div class="nav-wrapper">
-                        <ul>
-                              <li><a href="index.html" target="_blank">Home</a></li>
-                              <li><a href="port.html">Portfolio</a></li>
-                              <li><a href="#">About Me</a></li>
-                        </ul>
-                  </div>
-            </nav>
-
-            <ul>
-                  <li>
-                        <div class="search">
-                              <i class="fa fa-search"></i>
-                        </div>
-                  </li>
-
-            </ul>
-
-      </div>
-
-      <div class="media">
-            <ul>
-                  <li><a href="https://www.facebook.com/"  target="_blank" style="color: white; text-decoration: none;" class="fa fa-facebook"></a></li>
-                  <li><a href="https://www.instagram.com/"  target="_blank" style="color: white; text-decoration: none;" class="fa fa-instagram"></a></li>
-                  <li><a href="https://twitter.com/?lang=en"  target="_blank" style="color: white; text-decoration: none;" class="fa fa-twitter"></a></li>
-                  <li><a href="https://www.facebook.com/"  target="_blank" style="color: white; text-decoration: none;" class="fa fa-github"></a></li>
-            </ul>
-      </div>
-
-      <div class="wrapper">
+      <div class="main">
 
             <header>
-                  <h2 class="anim">UI & UX Design</h2>
-                  <p class="anim">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum commodi aperiam! In quo enim esse, tenetur. Ab voluptatem alias aliquid harum corporis quos, pariatur libero ex ipsam beatae eius.</p>
+                  <h2 class="anim">Portfolio</h2>
+                  <a href="https://www.instagram.com/"  target="_blank" class="fa fa-linkedin"></a>
+                  <a href="https://www.facebook.com/"  target="_blank"  class="fab fa-youtube"></a>
+                  <a href="https://www.facebook.com/"  target="_blank"  class="fa fa-github"></a>
+                  <p class="anim">Here are some of the things I've created.</p>
+
             </header>
 
             <div class="work">
-                  <img class="anim" src="project1.jpg" alt="project img">
-                  <img class="anim" src="project2.jpg" alt="project img">
-                  <img class="anim" src="project3.jpg" alt="project img">
-                  <img class="anim" src="project4.jpg" alt="project img">
+                  <div style="background-color: #c77dff;" class="project">
+                        <h1 style="font-family: 'Attentive';">Attentive</h1>
+                        <a href="#">
+                              <video autoplay controls loop>
+                                    <source src="/images/Attentive Demo.mp4" type="video/mp4"> Your browser does not support the video tag.
+                              </video>
+                        </a>
+
+                  </div>
+
+                  <div style="background-color: #8EA4D2;" class="project">
+                        <h1 style="font-family: 'UniGlobe';">UniGlobe Hacks</h1>
+                        <a href="#">
+                              <video autoplay controls loop>
+                                    <source src="/images/UniGlobe Demo.mp4" type="video/mp4"> Your browser does not support the video tag.
+                              </video>
+                        </a>
+                  </div>
+
+                  <div style="background-color: #fca76a;" class="project">
+                        <h1 style="font-family: 'Poppins'; font-size: 5.5rem;">AJ Ecommerce</h1>
+                        <a href="#">
+                              <video autoplay controls loop>
+                                    <source src="/images/Ecommerce Website Demo.mp4" type="video/mp4"> Your browser does not support the video tag.
+                              </video>
+                        </a>
+
+                  </div>
+
+                  
+                  <div style="background-color: #F4CD96;" class="project">
+                        <h1 style="font-family: 'Travel'; letter-spacing: .5rem; font-size: 6rem;">AJ Travel</h1>
+                        <a href="#">
+                              <video autoplay controls loop>
+                                    <source src="/images/travel.mp4" type="video/mp4"> Your browser does not support the video tag.
+                              </video>
+                        </a>
+
+                  </div>
+            </div>
+
+            <!-- <div class="work">
+                  <img class="anim" src="/images/project1.jpg" alt="project img">
+                  <img class="anim" src="/images/project2.jpg" alt="project img">
+                  <img class="anim" src="/images/travel.gif" alt="project img">
+                  <img class="anim" src="/images/project4.jpg" alt="project img">
             </div>
 
             <div class="header2">
@@ -75,44 +96,26 @@
             </div>
 
             <div class="work2">
-                  <img class="anim" src="project5.jpg" alt="project img">
-                  <img class="anim" src="project6.jpg" alt="project img">
-            </div>
+                  <img class="anim" src="/images/project5.jpg" alt="project img">
+                  <img class="anim" src="/images/project6.jpg" alt="project img">
+            </div> -->
       </div>
-      <script type="text/javascript">
 
-            TweenMax.from(".h1", 0, {
-            delay: 0,
-            opacity: 0,
-            y: 20,
-            ease: Expo.easeInOut
-            });      
 
-            TweenMax.from(".search", .7, {
-                  delay: .3,
-                  opacity: 0,
-                  y: 20,
-                  ease: Expo.easeInOut
-            });
 
-            TweenMax.from(".nav-wrapper", .7, {
-                  delay: .3,
-                  opacity: 0,
-                  y: 20,
-                  ease: Expo.easeInOut
-            });
 
-            TweenMax.staggerFrom(".media ul li", 1, {
-                  delay: 1,
-                  opacity: 0,
-                  y: 40,
-                  ease: Expo.easeInOut
-            }, 0.2);
 
-      
-            window.sr = ScrollReveal();
-            sr.reveal('.anim');
-      </script>
+      <div class="media">
+            <ul>
+                  <li><a href="https://www.facebook.com/"  target="_blank" class="fa fa-instagram"></a></li>
+                  <li><a href="https://www.facebook.com/"  target="_blank" class="fa fa-facebook"></a></li>
+                  <li><a href="https://twitter.com/?lang=en"  target="_blank" class="fa fa-twitter"></a></li>
+            </ul>
+      </div>
 
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+      <script src="/js/port.js"></script>
 </body>
 </html>
