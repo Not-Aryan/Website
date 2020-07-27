@@ -1,8 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Raleway&display=swap');
+
 
 @font-face {
       font-family: "rz-regular";
       src: url('/fonts/rz-regular.woff2')format('woff2');
+}
+
+@font-face {
+      font-family: "DIN";
+      src: url('/fonts/DIN\ Black.ttf');
+}
+
+@font-face {
+      font-family: "DS";
+      src: url('/fonts/Dreamscape\ Sans.ttf');
 }
 
 
@@ -34,7 +49,7 @@ nav {
 
 .logo {
      font-family: Poppins;
-     font-weight: bold;
+     font-weight: 800;
      /* color: #dc143c; */
      /* color: #e4143d; */
      color: #ea2340;
@@ -106,6 +121,32 @@ nav ul li a {
 
 .intro-words h1 {
       font-weight: 500 !important;
+}
+
+.bio {
+      margin-top: 10px;
+      font-family: 'Raleway';
+      font-size: 32.5px;
+}
+
+.cta {
+      display: inline-block;
+      position: relative;
+      top: 40px;
+      font-family: 'Raleway';
+      font-size: 3rem;
+      padding: .3em;
+      color: white;
+      background-color: #ea2340;
+      border-radius: 7.5px;
+      text-decoration: none;
+      box-shadow: 0 0px 2.5px rgba(0,0,0,0.25), 0 7.5px 10px rgba(0,0,0,0.22);
+      transition: all .2s ease-in-out;
+}
+
+
+.cta:hover {
+      transform: scale(1.05);
 }
 
 
