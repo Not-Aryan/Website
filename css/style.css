@@ -115,7 +115,7 @@ nav ul li a {
       font-size: 60px;
       position: absolute;
       top: 15%;
-      left: 13%;
+      left: 11%;
 }
 
 
@@ -156,7 +156,7 @@ nav ul li a {
       height: 694.8px;
       border-radius: 30px;
       position: absolute;
-      right: 13%;
+      right: 11%;
       top: 15%;
       box-shadow: 0 0px 0px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -178,6 +178,43 @@ nav ul li a {
 .media ul li a {
       color: black !important;
 }
+
+
+@media screen and (max-width: 1600px) {
+      .intro-words {
+            font-size: 55px;
+            left: 7.5%;
+      }
+      .face {
+            right: 7.5%;
+      }
+}
+
+@media screen and (max-width: 1440px) {
+      .intro-words {
+            font-size: 50px;
+            left: 7.5%;
+      }
+      .bio {
+            font-size: 30px;
+            margin-top: 25px;
+
+      }
+      .face {
+            right: 7.5%;
+            top: 17%;
+            width: 464px;
+            height: 617px;
+      }
+      .cta {
+            margin-top: 25px;
+      }
+
+}
+
+
+
+
 
 
 
