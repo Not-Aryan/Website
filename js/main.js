@@ -45,3 +45,15 @@ var typed = new Typed('.element', {
     loop: true,
 });
 
+var typed = new Typed('.element1', {
+    strings: [
+          "<style>.element{color: #ea2340}</style>passionate", 
+          "<style>.element{color: #ea2340}</style>practical", 
+          "<style>.element{color: #ea2340}</style>mindful",
+          "<style>.element{color: #ea2340}</style>resourceful"
+    ],
+    typeSpeed: 55,
+    backSpeed: 40,
+    startDelay: 2,
+    loop: true,
+});
