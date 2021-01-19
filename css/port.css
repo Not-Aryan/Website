@@ -238,3 +238,60 @@ header a:hover {
       color: black !important;
 }
 
+.mobile {
+      display: none;
+}
+
+@media screen and (max-width: 750px) {
+
+      nav {
+            padding: 0;
+            margin: 0;
+            /* margin-top: 1.5%; */
+      }
+
+      .logo {
+            /* padding-top: 10px; */
+            padding-left: 5%;
+      }
+
+      ul {
+            display: none;
+      }
+      .no-mobile {
+            display: none !important;
+      }
+
+      .mobile {
+            display: block;
+      }
+
+      .project h1 {
+            font-size: 4rem !important;
+      }
+
+      header {
+            text-align: center;
+      }
+
+      header h2 {
+            font-size: 5rem !important;
+            margin-top: 5vh;
+      }
+
+      .main {
+            padding: 0 5vh !important;
+            /* width: 100vw; */
+      }
+
+      .work {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .project .big-font {
+            font-size: 3rem !important;
+      }
+
+}
